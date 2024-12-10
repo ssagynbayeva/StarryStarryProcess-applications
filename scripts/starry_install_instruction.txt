@@ -1,0 +1,17 @@
+create environment python=3.9
+pip install starry
+pip uninstall numpy
+pip install "numpy<1.24"
+pip uninstall pymc3
+pip install pymc3
+pip install exoplanet_core
+pip install tqdm
+
+
+
+
+conda env create --name starry-env --file=/Users/sabina/Downloads/starry_env.yml
+Pip3 install starry_process
+pip install -e /Users/sabina/Desktop/GitHub/starry
+
+If use starry_process.calibrate then comment out dynasty imports in inclination, sample, run, plot
